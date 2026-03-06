@@ -1,0 +1,23 @@
+# Build outputs
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+
+# STM32CubeIDE
+.settings/
+*.bak
+
+# micro-ROS heavy build artifacts
+**/microros_static_library_ide/build/
+**/microros_static_library_ide/install/
+**/microros_static_library_ide/library_generation/
+
+# libmicroros.a (too large for GitHub, stored locally at ~/microros_shared/)
+**/libmicroros/libmicroros.a
