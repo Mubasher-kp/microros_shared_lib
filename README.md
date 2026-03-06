@@ -135,7 +135,7 @@ Configure in STM32CubeMX:
 - **FreeRTOS:** CMSIS-RTOS V2
 - **UART3:** Async mode, 115200 baud, DMA TX+RX enabled
 - **USB OTG FS:** CDC (optional)
-- **Heap size:** minimum 64KB recommended
+- **Heap size:** minimum 24KB recommended
 - **Stack size for micro-ROS task:** `3000 * 4` bytes (12KB)
 
 ### Step 2: Copy the transport sources
